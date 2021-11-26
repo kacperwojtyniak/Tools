@@ -1,0 +1,17 @@
+config:
+  target: "URL GOES HERE"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: Warm up
+    - duration: 120
+      arrivalRate: 5
+      rampTo: 15
+      name: Ramp up load
+    - duration: 120
+      arrivalRate: 15
+      name: Sustained load
+scenarios:
+  - flow:
+      - get:
+          url: "/"
