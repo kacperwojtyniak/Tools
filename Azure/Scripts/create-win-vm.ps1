@@ -1,4 +1,5 @@
 # Creates Windows Server VM with RDP port opened
+# visual studio community 2022 win11 MicrosoftVisualStudio:visualstudio2022:vs-2022-comm-latest-win11-n:2021.11.12
 
 az vm create `
 --name 'vm-kw-001' `
