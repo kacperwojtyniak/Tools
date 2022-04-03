@@ -1,0 +1,1 @@
+az storage account update --resource-group "rg-kw-001" --name "stpekw002" --default-action Deny
